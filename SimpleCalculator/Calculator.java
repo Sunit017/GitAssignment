@@ -7,7 +7,7 @@ public class Calculator{
         System.out.println("Enter the Second Number");
         int b=sc.nextInt();
         System.out.println("Choose the Operator + - * /");
-        String operator=sc.nextLine();
+        String operator=sc.next();
         int result;
         switch(operator){
             case"+":
